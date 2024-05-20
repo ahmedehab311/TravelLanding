@@ -1,0 +1,63 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.footer .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 70px;
+  margin-top: 30px;
+}
+.box1 h3 {
+  color: #181e4b;
+  font-size: 44px;
+  font-weight: 400;
+  font-family: poppins;
+}
+.box1 p {
+  color: #5e6282;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: poppins;
+}
+.box2 {
+  display: flex;
+}
+.box-content {
+  margin-right: 14px;
+}
+.box-content h3 {
+  color: #5e6282;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: poppins;
+}
+.box-content div {
+  margin-top: 30px;
+}
+.box-content h4 {
+  color: #5e6282;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: poppins;
+  padding: 10px;
+}
+.box .icons-box i {
+  color: black;
+  border-radius: 50%;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+  font-size: 15px;
+  padding: 15px 16px;
+  margin-left: 12px;
+}
+.box3 h4 {
+  color: #5e6282;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: poppins;
+  margin: 15px 0 15px 0;
+}
+.box3 div {
+  margin-right: 10px;
+}
